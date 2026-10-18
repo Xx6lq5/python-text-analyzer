@@ -4,7 +4,7 @@
 def analyze_text(text):
     words = text.split()
     word_count = len(words)
-character_count = len(text)
+    character_count = len(text)
 
     
     # Extract basic statistics
@@ -13,6 +13,7 @@ character_count = len(text)
     
     print("--- TEXT ANALYSIS REPORT ---")
     print(f"Total Words: {word_count}")
+    print(f"Character Count: {character_count}")
     print(f"Unique Words: {len(unique_words)}")
     print(f"Vocabulary Richness: {vocab_richness:.2f}%")
     print("----------------------------")

@@ -4,6 +4,8 @@
 def analyze_text(text):
     words = text.split()
     word_count = len(words)
+character_count = len(text)
+
     
     # Extract basic statistics
     unique_words = set(words)

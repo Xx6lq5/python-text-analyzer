@@ -1,4 +1,4 @@
-# Simple AI Text Analyzer & Vocabulary Metrics
+# Simple Python Text Analyzer & Vocabulary Metrics
 # Developed by Abdalrahman Adam
 
 def analyze_text(text):

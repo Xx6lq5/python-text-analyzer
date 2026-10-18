@@ -23,4 +23,9 @@ and create generative AI tools that solve real-world problems efficiently.
 """
 
 if __name__ == "__main__":
-    analyze_text(sample_text)
+    user_text = input("Enter text to analyze: ")
+
+    if user_text.strip():
+        analyze_text(user_text)
+    else:
+        print("Please enter some text.")
